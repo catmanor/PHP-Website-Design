@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(255,250,240);
+    color: rgb(75, 75, 75);
+}
+
+/* Navigation bar */
+
+.nav-bar {
+    background-color: rgb(255,250,240);
+    margin-bottom: 3rem;
+    padding: 4rem 5rem 2rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo a, .nav-pages a, .nav-info a {
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+    
+}
+
+.logo a {
+    font-size: 3rem;
+    color: rgb(28, 177, 175);
+}
+
+.nav-pages a {
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    color: rgb(75, 75, 75);
+}
+
+.nav-info a {
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    color: rgb(75, 75, 75);
+}
+
+
+/* Flexbox grid */
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 3rem 0 3rem 3rem;
+    list-style: none;
+}
+
+.flex-item {
+    padding: 2rem;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 30%;
+}
+
+
+/* image and content area */
+.img-area img{
+    width: 100%;
+}
+
+.content-area h3{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.content-area p {
+    font-size: 1.2rem;
+    font-weight: medium;
+}
+
+tr, td {
+    padding: 2rem 1.5rem;
+}
+
+#name-col {
+    padding-left: 0;
+    font-size: 1.5rem;
+}
+
+#comment-col {
+    font-size: 1.2rem;
+}

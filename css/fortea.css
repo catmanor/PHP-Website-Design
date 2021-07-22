@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(255,250,240);
+    color: rgb(75, 75, 75);
+}
+
+/* Navigation Bar */
+.nav-bar {
+    background-color: rgb(255,250,240);
+    margin-bottom: 3rem;
+    padding: 4rem 5rem 2rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo a, .nav-pages a, .nav-info a {
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+    
+}
+
+.logo a {
+    font-size: 3rem;
+    color: rgb(28, 177, 175);
+}
+
+.nav-pages a {
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    color: rgb(75, 75, 75);
+}
+
+.nav-info a {
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    color: rgb(75, 75, 75);
+}
+
+/* Flexbox grid */
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 3rem 0 3rem 3rem;
+    list-style: none;
+}
+
+.flex-item {
+    padding: 2rem 0 2rem 2rem;
+}
+
+.left {
+    width: 30%;
+}
+
+.right {
+    width: 60%;
+}
+
+
+.filter h3 {
+    font-size: 1.5rem;
+}
+
+.filter .tea-type p {
+    font-size: 1.2rem;
+} 
+
+ .filter .tea-type .submit-button {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    border-style: hidden;
+    background-color: rgb(28, 177, 175);
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+
+/* Tea unit Area */
+.tea-unit {
+    width: 45%;
+    display: inline-block;
+    margin-left: 1rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.tea-unit p {
+    font-size: 1.1rem;
+}
+
+.bold {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.img-area img{
+    width: 100%;
+}
+
+.tea-display h3 {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.tea-unit div a {
+    text-decoration: none;
+    background-color: white;
+    border: thin solid black;
+    padding: 0.5rem 2rem;
+    color: black;
+    font-weight: 800;
+}
+
+.outline {
+    margin: 2rem 5rem;
+}
+
+.sample-table {
+    display: inline-block;
+}
+
+.orginal-sample-table {
+    display: inline-block;
+    text-align: center;
+    margin-left: 29rem;
+}
+
+.original-heading {
+    margin-left: 5rem;
+}
+
+tr, td {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+}
+
+img{
+    width: 80%;
+}
